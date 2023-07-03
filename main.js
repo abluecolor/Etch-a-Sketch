@@ -1,4 +1,4 @@
-const container = document.createElementById('container');
+const container = document.getElementById('container');
 function createDivs(gridSize) {
     for (let i = 0; i < gridSize; i++) {
         const div = document.createElement('div');
