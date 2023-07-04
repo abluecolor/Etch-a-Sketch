@@ -1,10 +1,10 @@
 const container = document.getElementById('container');
 const gridSize = 256;
 
-function createDivs(gridSize) {
+function createSquares(gridSize) {
     for (let i = 0; i < gridSize; i++) {
-        const div = document.createElement('div');
-        container.appendChild(div)
+        const square = document.createElement('div');
+        container.appendChild(square);
     }
 }
-createDivs(gridSize);
+createSquares(gridSize);
