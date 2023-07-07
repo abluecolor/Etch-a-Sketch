@@ -1,4 +1,3 @@
-const board = document.getElementById('board');
 const gridSize = 256;
 
 const flexContainer = document.createElement('div');
@@ -12,6 +11,34 @@ flexContainer.appendChild(titleDiv);
 const heading = document.createElement('h1');
 heading = classList.add('heading');
 titleDiv.appendChild(heading);
+
+const content = document.createElement('div');
+content = classList.add('content');
+flexContainer.appendChild(content);
+
+const board = document.createElement('div');
+board = classList.add('board');
+content.appendChild(board);
+
+const buttonBox = document.createElement('div');
+buttonBox = classList.add('buttons');
+content.appendChild(buttonBox);
+
+const blackButton = document.createElement('button');
+blackButton.textContent = 'Black';
+const whiteButton = document.createElement('button');
+whiteButton.textContent = 'White';
+const randomButton = document.createElement('button');
+randomButton.textContent = 'Random';
+const resetButton = document.createElement('button');
+resetButton.textContent = 'Reset';
+
+buttonBox.appendChild(blackButton);
+buttonBox.appendChild(whiteButton);
+buttonBox.appendChild(randomButton);
+buttonBox.appendChild(resetButton);
+
+const buttons
 
 function createSquares(gridSize) {
     for (let i = 0; i < gridSize; i++) {
