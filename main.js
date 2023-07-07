@@ -38,8 +38,6 @@ buttonBox.appendChild(whiteButton);
 buttonBox.appendChild(randomButton);
 buttonBox.appendChild(resetButton);
 
-const buttons
-
 function createSquares(gridSize) {
     for (let i = 0; i < gridSize; i++) {
         const square = document.createElement('div');
