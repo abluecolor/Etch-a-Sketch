@@ -5,23 +5,23 @@ flexContainer.classList.add('flexContainer');
 document.body.appendChild(flexContainer);
 
 const titleDiv = document.createElement('div');
-titleDiv = classList.add('titleDiv');
+titleDiv.classList.add('titleDiv');
 flexContainer.appendChild(titleDiv);
 
 const heading = document.createElement('h1');
-heading = classList.add('heading');
+heading.classList.add('heading');
 titleDiv.appendChild(heading);
 
 const content = document.createElement('div');
-content = classList.add('content');
+content.classList.add('content');
 flexContainer.appendChild(content);
 
 const board = document.createElement('div');
-board = classList.add('board');
+board.classList.add('board');
 content.appendChild(board);
 
 const buttonBox = document.createElement('div');
-buttonBox = classList.add('buttons');
+buttonBox.classList.add('buttons');
 content.appendChild(buttonBox);
 
 const blackButton = document.createElement('button');
