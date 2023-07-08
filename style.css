@@ -19,6 +19,11 @@
     align-items: center;
 }
 
+.heading {
+    display: flex;
+    justify-content: center;
+}
+
 .content {
     display: flex;
     justify-content: center;

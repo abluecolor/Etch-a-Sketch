@@ -9,6 +9,7 @@ titleDiv.classList.add('titleDiv');
 flexContainer.appendChild(titleDiv);
 
 const heading = document.createElement('h1');
+heading.textContent = "Sketch Pad";
 heading.classList.add('heading');
 titleDiv.appendChild(heading);
 
