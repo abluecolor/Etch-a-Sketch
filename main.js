@@ -1,3 +1,14 @@
+function howMany() {
+
+    function tryAgain()
+        
+
+    let newGridSize = (prompt('How many squares per side?', ''));
+        if (newGridSize > 10) {
+            tryAgain()
+        }
+}
+
 const gridSize = 256;
 
 const flexContainer = document.createElement('div');
